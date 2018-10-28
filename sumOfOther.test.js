@@ -1,7 +1,7 @@
 const assert = require('assert');
 const result = require('./sumOfOther.js');
 
-describe('result', () => {
+describe('sumOfOther', () => {
   it('test1', () => {
     const arr = result([2, 3, 4, 1]);
     assert.deepEqual(arr, [8, 7, 6, 9]);
