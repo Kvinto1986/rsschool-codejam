@@ -1,5 +1,5 @@
 const assert = require('assert');
-const result = require('./make.js');
+const result = require('./sumOfOther.js');
 
 describe('result', () => {
   it('test1', () => {
